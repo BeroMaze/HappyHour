@@ -1,0 +1,138 @@
+body{
+    height: 95%;
+    width: 95%;
+    text-align: center;
+    margin: 5px auto;
+
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    border: solid;
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(0,177,255);
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+#title{
+    margin-left: 40px;
+    font-family: 'Sigmar One', cursive;
+    font-size: 1.7em;
+}
+
+#inputSection{
+  margin-right: 50px;
+}
+#input{
+    /*margin-left: 35%;*/
+    height: 20px;
+    width: 300px;
+}
+
+main{
+  width: 100%;
+  height: 100%;
+  border: solid;
+}
+aside{
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    width: 170px;
+    height: 900px;
+    border-right: solid;
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(0,100,255);
+}
+
+nav{
+    width: 140px;
+    height: 100%;
+    /*border-right: solid;*/
+    margin-right: 0;
+    background-color: rgb(0,177,255);
+
+}
+
+article{
+  width: 95%;
+  height: 95%;
+}
+#Neighborhoods{
+    height: 150px;
+    padding-top: 10px;
+    /*border-bottom: solid;*/
+}
+
+#price{
+    height: 150px;
+    padding-top: 10px;
+    /*border-bottom: solid;*/
+}
+
+.navTitle{
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.choseBox{
+    width: 90px;
+    height: 100px;
+    /*border: solid;*/
+    -webkit-justify-content: center;
+    margin: 0 auto;
+}
+.each{
+  display:-webkit-flex;
+  -webkit-flex-direction: row;
+  margin-bottom: 0px;
+  height: 20px;
+  -webkit-align-items: center;
+
+}
+
+.choseInput{
+    width: 10px;
+    height: 10px;
+}
+
+.choose{
+    font-size: .7em;
+}
+.more{
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    padding-top: 10px;
+    height: 20px;
+    width: 95%;
+    font-size: .7em;
+}
+#moreN{
+    width: 100%;
+    margin-top: 0;
+    height: 100%;
+}
+
+#hide{
+    width: 20px;
+    height: 100%;
+    margin-right: 0px;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    margin: auto;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.hideAside{
+    width: 20px;
+}

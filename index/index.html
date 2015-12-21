@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Hour</title>
+    <link rel="stylesheet" type="text/css" href="./structure.css">
+    <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+</head>
+  <body>
+      <header>
+          <h1 id='title'>Happy Hour Locator</h1>
+          <div id='inputSection'>
+          <input id='input'>
+          <button id='search'>Search</button>
+          </div>
+      </header>
+
+      <main>
+
+          <aside>
+              <nav>
+                  <div id='Neighborhoods'>
+                      <h3 class='navTitle'><u>Neighborhoods</u></h3>
+                      <div class='choseBox'>
+                          <div class='each'><input type="checkbox" class='choseInput'><p class='choose'>Downtown</p></div>
+                          <div class='each'><input type="checkbox" class='choseInput'><p class='choose'>Ballard</p></div>
+                          <div class='each'><input type="checkbox" class='choseInput'><p class='choose'>Capitol Hill</p></div>
+                          <div class='each'><input type="checkbox" class='choseInput'><p class='choose'>First Hill</p></div>
+                          <div class='more'><p id='moreN'><u>more</u></p></div>
+                      </div>
+                  </div>
+
+                  <div id='price'>
+                      <h3 class='navTitle'><u>Price</u></h3>
+                      <div class='choseBox'>
+                          <div class='each'><input type="checkbox" class='choseInput'><p class='choose'>$</p></div>
+                          <div class='each'><input type="checkbox" class='choseInput'><p class='choose'>$$</p></div>
+                          <div class='each'><input type="checkbox" class='choseInput'><p class='choose'>$$$</p></div>
+                          <div class='each'><input type="checkbox" class='choseInput'><p class='choose'>$$$$</p></div>
+                      </div>
+                  </div>
+
+                  <div id='distance'>
+                      <h3 class='navTitle'><u>Distance</u></h3>
+                      <div class='choseBox'>
+                          <div class='each'><input type="checkbox" class='choseInput'><p class='choose'>Drive (5 miles)</p></div>
+                          <div class='each'><input type="checkbox" class='choseInput'><p class='choose'>Bike (2 miles)</p></div>
+                          <div class='each'><input type="checkbox" class='choseInput'><p class='choose'>Walk (1 mile)</p></div>
+                      </div>
+                  </div>
+
+                  <div id='happyHours'>
+                      <h3 class='navTitle'><u>Happy Hour Time</u></h3>
+                      <div class='choseBox'>
+                          <div class='each'><input type="checkbox" class='choseInput'><p class='choose'>Now</p></div>
+                          <div class='each'><p class='choose'>Happy Hour at:</p></div>
+                          <div class='each'><input class="open-at" type="text" value="1:30 pm"></div>
+                          <div class='each'><select name="day" id="day" onchange="" size="1">
+                                <option value="mon">Monday</option>
+                                <option value="tue">Tuesday</option>
+                                <option value="wed">Wednesday</option>
+                                <option value="thurs">Thursday</option>
+                                <option value="fri">Friday</option>
+                          </select></div>
+                      </div>
+                  </div>
+
+                  <div id='moreOptions'>
+                      <h3 class='navTitle'><u>More Options</u></h3>
+                      <div class='choseBox'>
+                          <div class='each'><input type="checkbox" class='choseInput'><p class='choose'>WiFi</p></div>
+                          <div class='each'><input type="checkbox" class='choseInput'><p class='choose'>Dogs Allow</p></div>
+
+                      </div>
+                  </div>
+              </nav>
+
+              <div id='hide'><div><p>H</p><p>i</p><p>d</p><p>e</p></div></div>
+
+          </aside>
+
+          <article>
+
+
+          </article>
+
+      </main>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js'></script>
+      <script src="./structure.js"></script>
+  </body>
+
+</html>
