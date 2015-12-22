@@ -37,9 +37,11 @@ header{
 }
 
 main{
-  width: 100%;
-  height: 100%;
-  border: solid;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    width: 100%;
+    height: 100%;
+    border: solid;
 }
 aside{
     display: -webkit-flex;
