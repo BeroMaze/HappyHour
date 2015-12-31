@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>Happy Hour</title>
+
+    <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="./structure.css">
     <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
@@ -78,15 +80,20 @@
               <div id='hide'><div><p>H</p><p>i</p><p>d</p><p>e</p></div></div>
 
           </aside>
-
           <article>
-
+              <div id="map"></div>
 
           </article>
 
       </main>
+
+
       <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js'></script>
+      <script src="./yelp.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdXtEF2I8QOQo4OkgmnZiOdWqhcT4QOx4&callback=initMap"
+        async defer></script>
       <script src="./structure.js"></script>
+
   </body>
 
 </html>
